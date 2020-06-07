@@ -19,5 +19,8 @@ from appnew import views
 urlpatterns = [
     path('',views.index,name='index'),
     path('About',views.About,name='About'),
-    path('contact',views.contact,name='contact')
+    path('contact',views.contact,name='contact'),
+    path('signup',views.handlesignup,name='handlesignup'),
+    path('login',views.handlelogin,name='handlelogin'),
+    path('logout',views.handlelogout,name='handlelogout')
 ]
